@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of [Shivansh Pathak]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff5f;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #0069d9;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+            max-width: 900px;
+            margin: auto;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.245);
+            margin: 1em 0;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .icon-button {
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            transition: transform 0.2s;
+        }
+        .icon-button:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #007bff5f;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Shivansh Pathak</h1>
+        <p>Final Year Engineering Student</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#open-to-work">Open to Work</a>
+        
+    </nav>
+    <section id="about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Enthusiastic final-year engineering student passionate about product management, with strong analytical skills and
+                a collaborative approach. Known for a calm demeanor, adaptability, and continuous learning. Eager to leverage my
+                abilities to drive innovation and contribute to dynamic teams.</p>
+                <button class="icon-button" onclick="showMessage()">
+                    <span class="material-icons">info</span>
+                </button>
+        </div>
+        </section>
+        <section id="Skills">
+            <div class="card">
+                <h2>Skills</h2>
+               <p> <h3>Domain Skills</h3> Design Thinking, A/B testing, Agile Framework, JIRA, Wireframing, SQL, Life Cycle Management
+                   <h3>Soft Skills</h3> Stakeholder Management, Communication, Resource Utilisation, Prioritization, Problem Solving, Market Research.</p>
+                   
+            </div>
+        </section>
+    <section id="projects">
+        <div class="card">
+            <h2>Projects</h2>
+            <h3>Country Delight Application</h3>
+            <p>Did a case study on the Country Delight App. </p>
+            <h3>Spotify</h3>
+            <p>Did a case study on the Spotify App</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: pathakshivansh01@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shivansh-pathak-835381220/" target="_blank">Your LinkedIn</a></p>
+        </div>
+    </section>
+    <section id="open-to-work">
+        <div class="card">
+            <h2>Open to Work</h2>
+            <p>I am currently open to new opportunities in the Product Management and related areas. Feel free to contact me for potential collaborations or job offers.</p>
+        </div>
+    </section>
+   
+    <footer>
+        <p>&copy; 2024 [Shivansh Pathak]. All rights reserved.</p>
+    </footer>
+    <script>
+        function showMessage() {
+            alert('Hello, Have a Good Day!');
+        }
+    </script>
+</body>
+</html>
